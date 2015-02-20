@@ -1,0 +1,21 @@
+{
+  "name": "gulp-scss-to-less",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "description": "A gulp plugin convert scss to less",
+  "author": {
+    "name": "electricessence",
+    "url": "http://horicdesign.com"
+  },
+  "dependencies": {
+    "through2": "*",
+    "gulp-util": "*"
+  },
+  "licenses": "MIT",
+  "readme": "gulp-less-to-scss\n=======\nA gulp plugin convert less files to scss files\n\nUsage\n-------\n\n```javascript\nvar lessToScss = require('gulp-less-to-scss');\ngulp.task('lessToScss',function(){\n    gulp.src('themes/system/less/*.less')\n\t\t.pipe(lessToScss())\n\t\t.pipe(gulp.dest('themes/system/scss'));\n});\n```\n\nNotice\n-------\nThis plugin cannot handle with 'when' statement.\n\nLICENSE\n-------\n\n(MIT License)\n\nCopyright (c) 2014 [horicdesign](http://horicdesign.com)",
+  "readmeFilename": "README.md",
+  "_id": "gulp-less-to-scss@0.0.4",
+  "_shasum": "9608e5edbdf3f13d1848a70eec0f5b4eca440282",
+  "_from": "gulp-less-to-scss@",
+  "_resolved": "https://registry.npmjs.org/gulp-less-to-scss/-/gulp-less-to-scss-0.0.4.tgz"
+}
